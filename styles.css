@@ -1,0 +1,26 @@
+body {
+  background-color: #1e1e1e; /* Dark background for contrast */
+  color: #ff69b4; /* Pink color for the text */
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.ascii-art {
+  background-color: #2a2a2a; /* Slightly lighter dark background for the box */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.3); /* Pink shadow for a glowing effect */
+  border: 1px solid #ff69b4; /* Pink border */
+}
+
+pre {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
